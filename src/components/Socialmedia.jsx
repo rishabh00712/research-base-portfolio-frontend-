@@ -5,7 +5,7 @@
 //   onNotice  -> called with an error message (optional)
 import React, { useState } from 'react';
 import theme from '../theme';
-import { JSON_HEADERS, api } from '../api';
+import { JSON_HEADERS, api } from '../Api';
 
 /* ---------- Icons (matched by the `name` column) ---------- */
 const iconProps = { width: 24, height: 24, viewBox: '0 0 24 24' };
