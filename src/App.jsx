@@ -10,7 +10,7 @@ import About from './components/About';
 import PeopleMe from './components/PeopleMe';
 import Research from './components/Research';
 import Publications from './components/Publications';
-import BeyondTheBench from './components/BeyondTheBench';
+import Beyondthebench from './components/Beyondthebench';
 
 // Jump to the top whenever the page changes
 const ScrollToTop = () => {
@@ -40,7 +40,7 @@ const App = () => {
             <Route path="/people" element={<PeopleMe />} />
             <Route path="/research" element={<Research />} />
             <Route path="/publications" element={<Publications />} />
-            <Route path="/beyond-the-bench" element={<BeyondTheBench />} />
+            <Route path="/beyond-the-bench" element={<Beyondthebench />} />
 
             {/* old /about link still works */}
             <Route path="/about" element={<Navigate to="/dr-ferrocene" replace />} />
